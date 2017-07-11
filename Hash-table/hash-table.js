@@ -1,3 +1,12 @@
+/**
+ * Hash
+ * @Author Cheng_Guanghui
+ * @Date   2017-07-11T08:48:38+0800
+ * @param  {string}                 string 输入的键值
+ * @param  {number}                 max    输入的键值长度
+ * @return {number}                        输出生成的 hash 值
+ * @description 取输入键值的 ASCII 码之和， 然后对键值长度取余， 这是一种通用的算法
+ */
 var hash = (string, max) => {
   var hash = 0;
   for (var i = 0; i < string.length; i++) {
