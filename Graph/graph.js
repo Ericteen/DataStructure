@@ -1,3 +1,9 @@
+/**
+ * 1. Adjacency List    左侧为node, 右侧为与之相关联的其他node
+ * 2. Adjacency Matrix  行列均表示node,  node间有关联的写1， 无关联的写0
+ * 3. Incidence Matrix  行表示node, 列表示edge, 起始写-1， 射入写1， 无关联写0
+ */
+
 /* Graphs: Breadth-first search */
 
 function bfs(graph, root) {
